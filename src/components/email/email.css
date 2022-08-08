@@ -1,0 +1,54 @@
+.email{
+    position: relative;
+    width: 100%;
+    opacity: .9;
+    background-color: black !important;
+}
+.colorSharp2{
+    width: 100%;
+    height: 25vh;
+}
+.emailT>p{
+    color: black  !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+.emailC{
+    position: absolute;
+    left:11%;
+    top: -84%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 74px 10px;
+    background-color: white !important;
+    gap: 60px;
+    width: 80%;
+    border-radius: 20px;
+}
+.emailIn{
+    position: relative;
+    width:50%;
+}
+.emailIn>input{
+    border:none;
+    font-family: Verdana;
+    outline: gray 1px solid; 
+    width: 100%;
+    font-weight:bold;
+    padding: 15px 15px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.emailIn>button{
+    position: absolute;
+    width: 25%;
+    background: linear-gradient(45deg,blue,pink);
+    top: 5%;
+    border: none;
+    border-radius: 10px;
+    right: 1%;
+    height: 90%;
+    font-weight:bold;
+    font-size: 20px;
+}

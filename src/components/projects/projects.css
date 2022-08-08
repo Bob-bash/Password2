@@ -1,0 +1,84 @@
+.projects{
+    width: 100%;
+    background-color: black !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+}
+.proP{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.projectsTittle{
+    color: transparent !important;
+    background:linear-gradient(45deg,green,pink);
+    background-clip: text;
+}
+.proH{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.proP>p{
+    opacity: .7;
+}
+.linksW{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.load{
+    position:absolute;
+    top: 0px;
+    background-color: gray;
+    left: 0px;
+    width: 1%;
+    opacity: 0;
+    transition: .4s linear;
+    height: 100%;
+}
+.linkW:hover .load{
+    width: 100%;
+    opacity: .7;
+}
+.linkW:hover .link{
+    color: transparent;
+    background: linear-gradient(45deg,green,red);
+    -webkit-background-clip: text;
+}
+.linkW{
+    outline: solid 1px gray;
+    width: 25%;
+    position: relative;
+    display: flex;
+    text-align: center;
+}
+.link{
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.linkActive{
+    background-color: gray;
+    width: 100%;
+    opacity: .7 !important;
+}
+.linkActive1{
+    color: transparent;
+    background: linear-gradient(45deg,green,red);
+    -webkit-background-clip: text;
+}

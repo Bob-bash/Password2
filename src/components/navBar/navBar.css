@@ -1,0 +1,114 @@
+.navBar{
+    width: 100%;
+    padding: 10px 30px;
+    background: linear-gradient(45deg,black 70%,blue);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+.navBarAn{
+    animation:navBarAn .4s linear 0s 1 backwards ;
+}
+@keyframes navBarAn {
+    0%{
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    100%{
+        transform: none;
+    }
+}
+.logo{
+    transform: scale(.6);
+    cursor: pointer;
+}
+.logoW{
+    transition: .4s  ease-in;
+}
+.logoW:hover{
+    transform: translateX(10px);
+}
+.navW{
+    display: flex; 
+    align-items: center;
+    gap: 40px;
+}
+.navText{
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    gap: 40px;
+}
+.navText>a{
+    color: white;
+    opacity: .6;
+}
+.navText>a:hover{
+    opacity: 1;
+}
+.linkActive1{
+    opacity: 1 !important;
+}
+.navSvg{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.svgW{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    outline: 2px gray solid;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+.svgW:hover .circleE{
+    transform: scale(4.8);
+    opacity: .8 ;
+}
+.circleE{
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    width: 8px;
+    height: 8px;
+    opacity: 0;
+    transition: .3s ease-out;
+}
+.navCon{
+    padding: 20px 20px;
+    outline: 2px gray solid;
+    cursor: pointer;
+}
+.navR{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.conW{
+    position: relative;
+    cursor: pointer;
+}
+.conLoad{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width: 10px;
+    background-color: white;
+    opacity: 0;
+    transition: .3s ease-out;
+}
+.conW:hover .conLoad{
+    width: 100%;
+    opacity: .8;
+}

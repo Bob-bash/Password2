@@ -1,0 +1,90 @@
+.contact{
+    width: 100%;
+    margin-top: -20px;
+}
+.contactC{
+    background-image: url('../../assets/img/colorSharp.png');
+    padding: 40px 30px 200px;
+    width: 100%;
+    filter: brightness(1.4);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.contactImg{
+    width: 45%;
+}
+.contactImg1{
+    width: 100%;
+}
+.contactW{
+    width: 50%;
+    margin-left: 10px;
+    align-items: center;
+    gap: 30px;
+    justify-content: flex-start;
+}
+.contactInfo{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
+.contactInner{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+.contactInner>input{
+    width: 45%;
+    height:40px;
+    outline: 1px solid gray;
+    border: none;
+    font-family: Verdana;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white !important;
+}
+.message{
+    outline: 1px solid gray;
+    padding-left: 2%;
+    padding-bottom:36%;
+    width: 93%;
+    border-radius: 10px;
+    border: none;
+    outline: 1px solid gray;
+    height:20vw;
+    background-color: transparent;
+    color: white !important;
+    font-family: Verdana;
+}
+.contactB{
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background-color: orange !important;
+    color: black !important;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactMove{
+    animation: contactMove .4s linear 0s backwards;
+}
+@keyframes contactMove {
+    0%{
+        transform: scale(.5);
+    }
+}

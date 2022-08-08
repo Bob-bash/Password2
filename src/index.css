@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    background-color: black !important;
+    color: white !important;
+    font-family:'Work Sans','sans-serif' ;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+span{
+    display: inline-block;
+}
+img{
+    object-fit: cover;
+}

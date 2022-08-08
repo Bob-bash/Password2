@@ -1,0 +1,94 @@
+.skill{
+    background-image: url('../../assets/img/colorSharp.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+.skillCon{
+    width: 85%;
+    border-radius:50px;
+    position: absolute;
+    padding: 50px;
+    top:-10%;
+    left: 8%;
+    background-color: black;
+}
+.skillHead{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.skillText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    opacity: .8;
+}
+.skillCircle{
+    display: flex;
+    flex-direction: column;
+    background-color: black !important;
+    border: none;
+    outline: none;
+    gap: 10px;
+    align-items: center;
+}
+.skillW{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    gap: 40px   ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 42px;
+}
+.arrWW{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.skillScreen{
+    width: 70%;
+    overflow-x: hidden;
+}
+.skillCircles{
+    display: flex;
+    justify-content: flex-start;
+    transition: .4s linear;
+    align-items: center;
+    gap: 50px;
+}
+.arrW{
+    width: 30px;
+    outline: none;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size:30px;
+}
+.arrW:hover{
+    background-color: gray;
+    opacity: .8;
+}
+.des{
+    white-space: pre;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+}
